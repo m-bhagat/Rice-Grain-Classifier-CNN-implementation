@@ -7,6 +7,7 @@ This code implements a Convolutional Neural Network (CNN) to classify images of 
 
 ## Key Features
 - Custom implementation of the VGG16-inspired architecture.
+- First 1000 images in each class folders were used, so the total dataset had 5000 images.
 - Dataset split into training, validation, and testing sets.
 - Optimized for smaller computational resources with reduced image sizes and simplified layers.
 - Performance evaluation through confusion matrix, classification report, and training-validation metrics visualization.
